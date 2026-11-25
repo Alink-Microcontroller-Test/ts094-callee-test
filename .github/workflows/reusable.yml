@@ -1,0 +1,8 @@
+name: ts094 reusable
+on:
+  workflow_call:
+jobs:
+  prove:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "TS094 reusable workflow ran"
